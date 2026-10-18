@@ -1,0 +1,15 @@
+<svg style="background:transparent" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Home heating and cooling illustration">
+<circle cx="640" cy="120" r="54" fill="#FFD27A"/><g stroke="#FFD27A" stroke-width="8" stroke-linecap="round"><path d="M720 120L738 120"/><path d="M696 176L708 188"/><path d="M640 200L640 218"/><path d="M584 176L572 188"/><path d="M560 120L542 120"/><path d="M584 64L572 52"/><path d="M640 40L640 22"/><path d="M696 64L708 52"/></g>
+<g stroke="#fff" stroke-width="8" stroke-linecap="round" fill="none"><path d="M110 110v70M80 128l60 34M80 162l60-34"/></g>
+
+<rect x="190" y="290" width="420" height="230" fill="#FFFFFF"/>
+<path d="M150 300L400 110L650 300Z" fill="#F35605"/><path d="M150 300L400 110L650 300" fill="none" stroke="#C94400" stroke-width="8" stroke-linejoin="round"/>
+<rect x="250" y="340" width="90" height="90" rx="6" fill="#FFD9C0" stroke="#CFC8C1" stroke-width="6"/>
+<rect x="460" y="340" width="90" height="90" rx="6" fill="#FFD9C0" stroke="#CFC8C1" stroke-width="6"/>
+<rect x="365" y="400" width="70" height="120" rx="6" fill="#1F1F1F"/><circle cx="420" cy="465" r="5" fill="#FF8A4C"/>
+<rect x="515" y="150" width="40" height="80" fill="#8C857E"/>
+<rect x="190" y="520" width="420" height="10" fill="#CFC8C1"/>
+<circle cx="300" cy="260" r="0"/>
+<rect x="600" y="430" width="120" height="90" rx="10" fill="#CFC8C1"/><rect x="608" y="438" width="104" height="74" rx="8" fill="#FFFFFF"/><circle cx="660" cy="475" r="26" fill="#E9E4DF"/><g fill="#F35605"><path d="M660 475l-6-24a26 26 0 0 1 12 0z"/><path d="M660 475l20 12a26 26 0 0 1-6 10z"/><path d="M660 475l-14 16a26 26 0 0 1-6-12z"/></g>
+<path d="M232 468c-14 14-18 28-6 42 8 10 24 10 32 0 12-14 6-26-4-40 0 10-6 14-12 14 2-8 0-14-10-16z" fill="#F35605"/>
+</svg>

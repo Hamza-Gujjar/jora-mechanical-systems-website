@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Smart thermostat illustration"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF3EA"/><stop offset="1" stop-color="#FFD9C0"/></linearGradient></defs><rect width="800" height="600" fill="url(#g)"/><circle cx="650" cy="130" r="150" fill="#fff" opacity=".45"/><circle cx="120" cy="500" r="190" fill="#fff" opacity=".35"/><rect y="520" width="800" height="80" fill="#E9E4DF"/>
+<circle cx="400" cy="290" r="190" fill="#CFC8C1"/><circle cx="400" cy="290" r="170" fill="#FFFFFF"/><circle cx="400" cy="290" r="130" fill="#1F1F1F"/>
+<text x="400" y="320" font-family="Arial" font-weight="700" font-size="92" text-anchor="middle" fill="#fff">21°</text>
+<text x="400" y="225" font-family="Arial" font-weight="700" font-size="24" text-anchor="middle" fill="#FF8A4C" letter-spacing="3">HEATING</text>
+<path d="M400 360l0 0" stroke="#fff"/><g fill="none" stroke="#F35605" stroke-width="12" stroke-linecap="round"><path d="M270 350a140 140 0 0 0 40 50"/><path d="M530 350a140 140 0 0 1-40 50"/></g>
+<rect x="590" y="120" width="130" height="220" rx="22" fill="#1F1F1F"/><rect x="602" y="136" width="106" height="150" rx="10" fill="#FFFFFF"/><circle cx="655" cy="210" r="30" fill="#F35605"/><path d="M640 212l10 10 18-22" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="655" cy="313" r="9" fill="#8C857E"/>
+<g stroke="#F35605" stroke-width="6" stroke-linecap="round" fill="none"><path d="M560 190c14 14 14 40 0 54M540 170c26 26 26 70 0 96"/></g>
+</svg>

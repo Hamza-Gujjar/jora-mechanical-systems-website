@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ductwork illustration"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF3EA"/><stop offset="1" stop-color="#FFD9C0"/></linearGradient></defs><rect width="800" height="600" fill="url(#g)"/><circle cx="650" cy="130" r="150" fill="#fff" opacity=".45"/><circle cx="120" cy="500" r="190" fill="#fff" opacity=".35"/><rect y="520" width="800" height="80" fill="#E9E4DF"/>
+<g fill="#CFC8C1"><rect x="80" y="250" width="360" height="90"/><rect x="340" y="120" width="90" height="220"/><rect x="340" y="120" width="300" height="80"/><rect x="560" y="120" width="80" height="260"/></g>
+<g fill="#E9E4DF"><rect x="80" y="250" width="360" height="18"/><rect x="340" y="120" width="300" height="16"/></g>
+<g stroke="#8C857E" stroke-width="6"><path d="M110 250v90"/><path d="M170 250v90"/><path d="M230 250v90"/><path d="M290 250v90"/><path d="M350 250v90"/><path d="M410 250v90"/></g>
+<rect x="520" y="370" width="160" height="40" rx="8" fill="#F35605"/><rect x="534" y="380" width="14" height="20" rx="4" fill="#FFFFFF"/><rect x="562" y="380" width="14" height="20" rx="4" fill="#FFFFFF"/><rect x="590" y="380" width="14" height="20" rx="4" fill="#FFFFFF"/><rect x="618" y="380" width="14" height="20" rx="4" fill="#FFFFFF"/><rect x="646" y="380" width="14" height="20" rx="4" fill="#FFFFFF"/>
+<rect x="580" y="380" width="0" height="0"/>
+<g stroke="#FF8A4C" stroke-width="7" stroke-linecap="round" fill="none"><path d="M560 440c20 20 0 30 20 52M610 440c20 20 0 30 20 52M660 440c20 20 0 30 20 52"/></g>
+<circle cx="170" cy="440" r="60" fill="#FFFFFF" stroke="#F35605" stroke-width="10"/><g fill="#F35605"><path d="M170 440l-12-46a60 60 0 0 1 24 0z"/><path d="M170 440l40 28a60 60 0 0 1-14 20z"/><path d="M170 440l-30 30a60 60 0 0 1-16-18z"/></g><circle cx="170" cy="440" r="9" fill="#1F1F1F"/>
+</svg>

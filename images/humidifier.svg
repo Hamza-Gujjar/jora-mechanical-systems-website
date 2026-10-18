@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Whole-home humidifier illustration"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF3EA"/><stop offset="1" stop-color="#FFD9C0"/></linearGradient></defs><rect width="800" height="600" fill="url(#g)"/><circle cx="650" cy="130" r="150" fill="#fff" opacity=".45"/><circle cx="120" cy="500" r="190" fill="#fff" opacity=".35"/><rect y="520" width="800" height="80" fill="#E9E4DF"/>
+<rect x="230" y="200" width="340" height="250" rx="20" fill="#CFC8C1"/><rect x="242" y="212" width="316" height="226" rx="14" fill="#FFFFFF"/>
+<rect x="270" y="240" width="140" height="150" rx="6" fill="#E9E4DF"/><path d="M282 250v130" stroke="#CFC8C1" stroke-width="5"/><path d="M298 250v130" stroke="#CFC8C1" stroke-width="5"/><path d="M314 250v130" stroke="#CFC8C1" stroke-width="5"/><path d="M330 250v130" stroke="#CFC8C1" stroke-width="5"/><path d="M346 250v130" stroke="#CFC8C1" stroke-width="5"/><path d="M362 250v130" stroke="#CFC8C1" stroke-width="5"/><path d="M378 250v130" stroke="#CFC8C1" stroke-width="5"/><path d="M394 250v130" stroke="#CFC8C1" stroke-width="5"/>
+<circle cx="480" cy="270" r="40" fill="#1F1F1F"/><circle cx="480" cy="270" r="31" fill="#FFFFFF"/><path d="M480 270l18-14" stroke="#F35605" stroke-width="5" stroke-linecap="round"/>
+<rect x="450" y="340" width="70" height="30" rx="8" fill="#F35605"/>
+<g fill="#5BA3D9"><path d="M330 90c-16 20-20 32-9 43 7 7 18 7 25 0 11-11 7-23-9-43z"/><path d="M420 60c-14 18-18 28-8 38 6 6 16 6 22 0 10-10 6-20-8-38z"/><path d="M480 110c-12 16-16 26-6 36 6 6 14 6 20 0 8-10 4-20-6-36z"/></g>
+<rect x="305" y="150" width="20" height="55" fill="#8C857E"/>
+<rect x="120" y="470" width="560" height="0" fill="none"/>
+</svg>
