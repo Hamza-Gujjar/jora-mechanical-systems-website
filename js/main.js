@@ -40,17 +40,16 @@
     }).filter(function (r) { return r.sc > 0; }).sort(function (a, b) { return b.sc - a.sc; }).map(function (r) { return r.x; });
   }
   function esc(s) { return s.replace(/[&<>"]/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
-  var sb = document.querySelector('.sbtn'), sf2 = document.querySelector('.sform');
-  if (sb && sf2) {
+  var sf2 = document.querySelector('.sform');
+  if (sf2) {
     var inp = sf2.querySelector('input'), box = sf2.querySelector('.sres');
-    sb.addEventListener('click', function () {
-      var o = sf2.classList.toggle('open'); sb.setAttribute('aria-expanded', o); if (o) inp.focus();
-    });
     inp.addEventListener('input', function () {
       var r = find(inp.value).slice(0, 6);
       box.innerHTML = r.length ? r.map(function (x) { return '<a href="' + ROOT + x.u + '"><b>' + esc(x.t) + '</b><span>' + esc(x.d.slice(0, 80)) + '</span></a>'; }).join('') : (inp.value ? '<p>No results. Try "furnace", "heat pump" or a city name.</p>' : '');
+      box.style.display = inp.value ? 'block' : 'none';
     });
-    document.addEventListener('click', function (e) { if (!e.target.closest('.search')) sf2.classList.remove('open'); });
+    document.addEventListener('click', function (e) { if (!e.target.closest('.sform')) box.style.display = 'none'; });
+    inp.addEventListener('focus', function () { if (inp.value) box.style.display = 'block'; });
   }
   var out = document.getElementById('sresults');
   if (out) {
@@ -59,4 +58,11 @@
     out.innerHTML = qq ? (rs.length ? '<p>' + rs.length + ' result' + (rs.length > 1 ? 's' : '') + ' for <b>' + esc(qq) + '</b></p>' + rs.map(function (x) {
       return '<div style="margin-bottom:18px"><a href="' + ROOT + x.u + '"><b style="font-size:1.1rem">' + esc(x.t) + '</b></a><br><span style="color:#6b655f">' + esc(x.d) + '</span></div>'; }).join('') : '<p>No results for <b>' + esc(qq) + '</b>. Try another word, or <a href="' + ROOT + 'contact.html">contact us</a>.</p>') : '';
   }
+
+  var gf = document.getElementById('galfilter');
+  if (gf) gf.addEventListener('click', function (e) {
+    var a = e.target.closest('a'); if (!a) return; e.preventDefault();
+    gf.querySelectorAll('a').forEach(function (x) { x.classList.toggle('on', x === a); });
+    document.querySelectorAll('#gal a').forEach(function (p) { p.style.display = (a.dataset.f === 'all' || p.dataset.cat === a.dataset.f) ? '' : 'none'; });
+  });
 })();
